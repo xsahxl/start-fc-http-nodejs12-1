@@ -18,6 +18,7 @@ jobs:
       - run: ls ~/.s
       - run: s set workspace
       - run: s config get
+      - run: cat /opt/hostedtoolcache/node/12.22.7/x64/lib/node_modules/@serverless-devs/s/node_modules/@serverless-devs/core/package.json
       # 默认密钥配置指令是阿里云密钥配置指令，更多可以参考：
       # 如何通过Github Action使用Serverless Devs做CI/CD：http://short.devsapp.cn/cicd/github/action/usage
       # Serverless Devs的官网是通过Serverless Devs部署的: http://short.devsapp.cn/cicd/github/action/practice
