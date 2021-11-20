@@ -15,6 +15,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm install -g @serverless-devs/s
+      - run: s -v
       # 默认密钥配置指令是阿里云密钥配置指令，更多可以参考：
       # 如何通过Github Action使用Serverless Devs做CI/CD：http://short.devsapp.cn/cicd/github/action/usage
       # Serverless Devs的官网是通过Serverless Devs部署的: http://short.devsapp.cn/cicd/github/action/practice
